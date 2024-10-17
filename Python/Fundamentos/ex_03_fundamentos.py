@@ -12,3 +12,25 @@ Desafio 3: Jogo da Adivinhação
     - No final, mostre quantas tentativas o usuário precisou para acertar.
 
 """
+
+import random
+
+numero_secreto = random.randint(1, 100)
+
+tentativas = 0
+
+while True:
+
+    numero_resposta = int(input("Digite um numero inteiro para tentar adivinhar o numero SECRETO!\n"))
+
+    tentativas += 1
+
+    if numero_resposta < numero_secreto:
+        print(f"{numero_resposta} é MENOR que o numero SECRETO!")
+    elif numero_resposta > numero_secreto:
+        print(f"{numero_resposta} é MAIOR que o numero SECRETO!")
+
+    elif numero_resposta == numero_secreto:
+        print(f"VOCE ACERTOU !!!")
+        print(f"Tentativas: {tentativas}")
+        break
