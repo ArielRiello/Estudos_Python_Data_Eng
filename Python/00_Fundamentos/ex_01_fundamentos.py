@@ -2,11 +2,8 @@
 Calculadora de Descontos
 
     - Crie um programa que pergunte ao usuário o valor original de um produto e a porcentagem de desconto.
-
     - Use operadores para calcular o valor com desconto.
-
     - Utilize uma estrutura condicional para garantir que a porcentagem de desconto esteja entre 0 e 100. Caso contrário, exiba uma mensagem de erro.
-
     - Use um loop while para permitir que o usuário calcule o desconto de vários produtos até que ele decida parar (usando uma palavra-chave como "sair").
 
 """

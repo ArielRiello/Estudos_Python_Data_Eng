@@ -2,11 +2,8 @@
 Exercício 1: Calculadora Simples
 
     - Crie uma função chamada calculadora que recebe três parâmetros: dois números e uma operação (+, -, *, /).
-    
     - A função deve retornar o resultado da operação com os dois números.
-    
     - Caso a operação não seja válida, retorne uma mensagem de erro.
-    
     - Teste a função com diferentes operações.
 
 """

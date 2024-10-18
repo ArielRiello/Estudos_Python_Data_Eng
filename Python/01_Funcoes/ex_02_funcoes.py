@@ -2,9 +2,7 @@
 Exercício 2: Verificador de Palíndromo
 
     - Crie uma função chamada eh_palindromo que recebe uma string como parâmetro.
-    
     - A função deve retornar True se a string for um palíndromo (lê-se igual de trás para frente) e False caso contrário.
-    
     - Faça uma outra função que pergunte ao usuário uma palavra e use a função eh_palindromo para verificar se é um palíndromo, imprimindo o resultado.
 
 """

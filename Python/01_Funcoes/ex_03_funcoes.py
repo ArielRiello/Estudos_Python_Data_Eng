@@ -1,14 +1,11 @@
 """
 Exercício 3: Conversão de Temperatura
 
-    - Crie uma função chamada converter_temperatura que recebe dois parâmetros: a temperatura e a unidade de conversão desejada ("C" para Celsius ou "F" para Fahrenheit).
-    
+    - Crie uma função chamada converter_temperatura que recebe dois parâmetros: a temperatura e a unidade de conversão desejada 
+    ("C" para Celsius ou "F" para Fahrenheit).
     - Se a unidade for "C", a função deve converter a temperatura de Fahrenheit para Celsius.
-    
     - Se a unidade for "F", a função deve converter a temperatura de Celsius para Fahrenheit.
-    
     - A função deve retornar o valor convertido e a unidade de destino.
-    
     - Teste a função com diferentes valores e unidades.
 
 """
