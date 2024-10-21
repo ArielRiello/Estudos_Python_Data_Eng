@@ -3,7 +3,7 @@
 
 <img src="/Python/img_anime_py.png" width="400">
 
-Conteúdo de estudos focado em programação Python, abrangendo do básico ao avançado. O repositório será atualizado conforme eu avanço nas revisões e nos estudos.
+<span style="font-size: 20px;">*Conteúdo de estudos focado em programação Python, abrangendo do básico ao avançado. O repositório será atualizado conforme eu avanço nas revisões e nos estudos.*</span>
 
 
 ### Python repositórios:
