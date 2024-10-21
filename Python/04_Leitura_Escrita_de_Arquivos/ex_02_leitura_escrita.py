@@ -57,3 +57,27 @@ criar_arquivo(local_aquivo)
 ler_arquivo(local_aquivo)
 
 filtrar_maior_idade(local_aquivo)
+
+
+"""
+OBS:
+
+csv: Biblioteca padrão do Python para manipulação de arquivos CSV (Comma-Separated Values).
+Ela permite a leitura e escrita de arquivos em formato de tabela, onde cada linha é uma entrada 
+e os campos são separados por vírgulas.
+
+O parâmetro newline="" é usado para evitar linhas em branco adicionais ao escrever no CSV no Windows
+
+A função csv.writer() cria um objeto que permite escrever dados em formato CSV no arquivo.
+
+O método writerows(dados) escreve todas as linhas da lista dados no arquivo.
+
+leitor = csv.reader(arquivo) cria um objeto csv.reader, que é usado para ler o conteúdo do arquivo CSV linha por linha.
+
+O csv.reader interpreta cada linha do arquivo como uma lista de strings, separando os valores de acordo com as vírgulas.
+
+next(leitor) avança para a próxima linha do objeto leitor, ignorando a primeira linha, 
+que geralmente é o cabeçalho (neste caso, "Nome" e "Idade"). 
+Isso evita que o cabeçalho seja processado como parte dos dados.
+
+"""
